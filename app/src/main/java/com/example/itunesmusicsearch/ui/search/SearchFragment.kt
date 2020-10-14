@@ -48,6 +48,11 @@ class SearchFragment : Fragment() {
         return binding.root
     }
 
+    override fun onResume() {
+        super.onResume()
+        viewModel.onSearchQueryTextChanged(binding.editSearch.text.toString())
+    }
+
     private fun injectViewModel() {
         val component = DaggerSearchFragmentComponent.builder()
             .searchFragmentModule(SearchFragmentModule(requireContext()))
