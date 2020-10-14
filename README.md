@@ -1,6 +1,6 @@
 # iTunes Music Searcher
 Application for searching music albums in Apple iTunes.
-User can find music album by entering a query in the field. 
+User can find music albums by entering a query in the field. 
 
 After selecting an album from the list of search results, the user sees detailed information about the album .
 
