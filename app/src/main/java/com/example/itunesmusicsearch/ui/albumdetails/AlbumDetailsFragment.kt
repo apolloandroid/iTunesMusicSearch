@@ -25,6 +25,7 @@ class AlbumDetailsFragment : Fragment() {
         val album = arguments?.getSerializable(Album.SERIALIZABLE_TAG) as Album?
         setToolbar(album)
         showAlbumInfo(album)
+        binding.lifecycleOwner= this
         return binding.root
     }
 

@@ -48,4 +48,4 @@ data class Track(
     @SerializedName("trackTimeMillis")
     @Expose
     val trackTimeMillis: Int
-)
+) : Serializable

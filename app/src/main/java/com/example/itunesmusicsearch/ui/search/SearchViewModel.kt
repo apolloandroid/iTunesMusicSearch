@@ -55,8 +55,6 @@ class SearchViewModel(
     override fun onItemClick(album: Album) {
         if (!checkConnectionStatus()) return
 
-        _clearSearchQuery.value = true
-
         viewModelScope.launch {
             _showProgressBarLoadingTracks.postValue(true)
             val tracks = repository.getTracks(album.collectionId)
