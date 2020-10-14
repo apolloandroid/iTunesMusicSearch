@@ -1,0 +1,10 @@
+<resources>
+    <!--    Application name-->
+    <string name="app_name">iTunes Music Searcher</string>
+
+    <!--    Strings related to Search Fragment-->
+    <string name="search_query_hint">Enter search query</string>
+    <string name="text_no_search_history">Your search history is empty</string>
+    <string name="show_no_internet_connection">No Internet connection</string>
+
+</resources>

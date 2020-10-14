@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!--    Style of collapsed Toolbar at AlbumDetailsFragment-->
+    <style name="Collapsed">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Style of expanded Toolbar at AlbumDetailsFragment-->
+    <style name="Expanded">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+</resources>
